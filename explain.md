@@ -13,15 +13,23 @@ Alice Smith, Age: 20, GPA: 3.8
 
 ### อธิบายการทำงาน
 
-Object Literal
+สร้าง object student แบบ Object Literal เพื่อเก็บข้อมูลนักเรียน
 
-Method ใน object
+มี method 2 ตัว
 
-ตัวแปรชนิด Array และ Boolean
+getFullName() คืนค่า ชื่อ นามสกุล
 
-Template literal (`text ${variable}`)
+getInfo() คืนค่าข้อมูลรวม: ชื่อ อายุ GPA
 
-คำสั่งแสดงผล console.log()
+ใช้ template literal เพื่อประกอบสตริง
+
+ใช้ this เพื่ออ้างถึงข้อมูลภายใน object เอง
+
+ใช้ console.log() แสดงผลในคอนโซล 2 บรรทัด
+
+ชื่อเต็ม
+
+ข้อมูลสรุปนักเรียน
 
 ์ไฟล์ `02-functions.js`
 
